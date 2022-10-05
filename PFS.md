@@ -204,6 +204,157 @@ tgls:Button("TP word2 ", function()
         
 end)
 
+     
+_G.word2C19 = false
+    tgls:Toggle("Auto Crababy C19",false, function(bool)
+        _G.word2C19 = bool
+    end)
+    
+    spawn(function()
+        while wait(1) do
+          if _G.word2C19 then
+            pcall(function() 
+                
+    
+    local args = {
+        [1] = workspace.ForScript.Battle.C19
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+    
+    
+                wait(2)
+            end)
+          end
+        end
+    end)
+-------      
+_G.word2C20 = false
+    tgls:Toggle("Auto Hydrcrab C20",false, function(bool)
+        _G.word2C20 = bool
+    end)
+    
+    spawn(function()
+        while wait(1) do
+          if _G.word2C20 then
+            pcall(function() 
+                
+    
+    local args = {
+        [1] = workspace.ForScript.Battle.C20
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+    
+    
+                wait(2)
+            end)
+          end
+        end
+    end)
+------- 
+
+_G.word2C22 = false
+    tgls:Toggle("Auto Beshell C22",false, function(bool)
+        _G.word2C22 = bool
+    end)
+    
+    spawn(function()
+        while wait(1) do
+          if _G.word2C22 then
+            pcall(function() 
+                
+    
+    local args = {
+        [1] = workspace.ForScript.Battle.C22
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+    
+    
+                wait(2)
+            end)
+          end
+        end
+    end)
+-------      
+
+
+_G.word2C23 = false
+    tgls:Toggle("Auto Mermashell C23",false, function(bool)
+        _G.word2C23 = bool
+    end)
+    
+    spawn(function()
+        while wait(1) do
+          if _G.word2C23 then
+            pcall(function() 
+                
+    
+    local args = {
+        [1] = workspace.ForScript.Battle.C23
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+    
+    
+                wait(2)
+            end)
+          end
+        end
+    end)
+-------      
+
+_G.word2C25 = false
+    tgls:Toggle("Auto Nymny C25",false, function(bool)
+        _G.word2C25 = bool
+    end)
+    
+    spawn(function()
+        while wait(1) do
+          if _G.word2C25 then
+            pcall(function() 
+                
+    
+    local args = {
+        [1] = workspace.ForScript.Battle.C25
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+    
+    
+                wait(2)
+            end)
+          end
+        end
+    end)
+-------     
+
+_G.word2C26 = false
+    tgls:Toggle("Auto Wavnym C26",false, function(bool)
+        _G.word2C26 = bool
+    end)
+    
+    spawn(function()
+        while wait(1) do
+          if _G.word2C26 then
+            pcall(function() 
+                
+    
+    local args = {
+        [1] = workspace.ForScript.Battle.C26
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+    
+    
+                wait(2)
+            end)
+          end
+        end
+    end)
+-------   
+
 tgls:Button("TP word3 ", function()
 
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1816.560546875, 8.105761528015137, 4125.326171875)    
@@ -450,17 +601,342 @@ tgls:Button("TP word7 ", function()
 
 end)
 
+_G.word7C59 = false
+tgls:Toggle("Auto Qiqi C59",false, function(bool)
+    _G.word7C59 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word7C59 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C59
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word7C61 = false
+tgls:Toggle("Auto Biliopard C61",false, function(bool)
+    _G.word7C61 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word7C61 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C61
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word7C64 = false
+tgls:Toggle("Auto Elbbit C64",false, function(bool)
+    _G.word7C64 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word7C64 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C64
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word7C65 = false
+tgls:Toggle("Auto Eleep C65",false, function(bool)
+    _G.word7C65 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word7C65 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C65
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
 tgls:Button("TP word8 ", function()
 
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3205.944580078125, 8.10053539276123, 11018.2880859375)    
 
 end)
 
+_G.word8C67 = false
+tgls:Toggle("Auto Hamimon C67",false, function(bool)
+    _G.word8C67 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word8C67 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C67
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word8C68 = false
+tgls:Toggle("Auto Hammard C68",false, function(bool)
+    _G.word8C68 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word8C68 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C68
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word8C70 = false
+tgls:Toggle("Auto Ssis Q C70",false, function(bool)
+    _G.word8C70 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word8C70 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C70
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word8C72 = false
+tgls:Toggle("Auto Toyon C72",false, function(bool)
+    _G.word8C72 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word8C72 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C72
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word8C73 = false
+tgls:Toggle("Auto Toybrigon C73",false, function(bool)
+    _G.word8C73 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word8C73 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C73
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
 tgls:Button("TP word9 ", function()
 
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3160.49365234375, 8.100536346435547, 12381.62109375)    
 
 end)
+
+_G.word9C75 = false
+tgls:Toggle("Auto Abai C75",false, function(bool)
+    _G.word9C75 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word9C75 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C75
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word9C76 = false
+tgls:Toggle("Auto Bibbai C76",false, function(bool)
+    _G.word9C76 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word9C76 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C76
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word9C78 = false
+tgls:Toggle("Auto Moonigher C78",false, function(bool)
+    _G.word9C78 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word9C78 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C78
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word9C80 = false
+tgls:Toggle("Auto Bluorner C80",false, function(bool)
+    _G.word9C80 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word9C80 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C80
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
 
 tgls:Button("TP word10 ", function()
 
@@ -468,131 +944,130 @@ tgls:Button("TP word10 ", function()
 
 end)
 
- _G.word6C55 = false
-    tgls:Toggle("Auto โกโลฮาร์ด",false, function(bool)
-        _G.word6C55 = bool
-    end)
-    
-    spawn(function()
-        while wait(1) do
-          if _G.word6C55 then
-            pcall(function() 
-                
-    
-    local args = {
-        [1] = workspace.ForScript.Battle.C55
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
-    
-    
-                wait(5)
-            end)
-          end
-        end
-    end)
- 
+_G.word10C82 = false
+tgls:Toggle("Auto Wichhy C82",false, function(bool)
+    _G.word10C82 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word10C82 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C82
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
- _G.weapon1 = false
-    tgls:Toggle("Auto กุปโลร่า",false, function(bool)
-        _G.weapon1 = bool
-    end)
-    
-    spawn(function()
-        while wait(1) do
-          if _G.weapon1 then
-            pcall(function() 
-                
-    
-    local args = {
-        [1] = workspace.ForScript.Battle.C57
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
-    
-    
-                wait(5)
-            end)
-          end
-        end
-    end)
- 
- _G.weapon2 = false
-    tgls:Toggle("Auto เอลบิท",false, function(bool)
-        _G.weapon2 = bool
-    end)
-    
-    spawn(function()
-        while wait(1) do
-          if _G.weapon2 then
-            pcall(function() 
-                
-    
-    local args = {
-        [1] = workspace.ForScript.Battle.C64
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
-    
-    
-                wait(5)
-            end)
-          end
-        end
-    end)
-    
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+_G.word10C83 = false
+tgls:Toggle("Auto Wichdevily C83",false, function(bool)
+    _G.word10C83 = bool
+end)
 
- _G.weapon3 = false
-    tgls:Toggle("Auto อีเลฟ",false, function(bool)
-        _G.weapon3 = bool
-    end)
-    
-    spawn(function()
-        while wait(1) do
-          if _G.weapon3 then
-            pcall(function() 
-                
-    
-    local args = {
-        [1] = workspace.ForScript.Battle.C65
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
-    
-    
-                wait(5)
-            end)
-          end
-        end
-    end)
-    
-  _G.weapon4 = false
-    tgls:Toggle("Auto อีเลฟ",false, function(bool)
-        _G.weapon4 = bool
-    end)
-    
-    spawn(function()
-        while wait(1) do
-          if _G.weapon4 then
-            pcall(function() 
-                
-    
-    local args = {
-        [1] = workspace.ForScript.Battle.C72
-    }
-    
-    game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
-    
-    
-                wait(5)
-            end)
-          end
-        end
-    end)
-    
+spawn(function()
+    while wait(1) do
+      if _G.word10C83 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C83
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+             
+
+_G.word10C85 = false
+tgls:Toggle("Auto Foleye C85",false, function(bool)
+    _G.word10C85 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word10C85 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C85
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
        
+_G.word10C87 = false
+tgls:Toggle("Auto Minson C87",false, function(bool)
+    _G.word10C87 = bool
+end)
 
+spawn(function()
+    while wait(1) do
+      if _G.word10C87 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C87
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
+
+_G.word10C88 = false
+tgls:Toggle("Auto Minonator C88",false, function(bool)
+    _G.word10C88 = bool
+end)
+
+spawn(function()
+    while wait(1) do
+      if _G.word10C88 then
+        pcall(function() 
+            
+
+local args = {
+    [1] = workspace.ForScript.Battle.C88
+}
+
+game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
+
+
+            wait(2)
+        end)
+      end
+    end
+end)
+-------  
 ----------------------------------------------------------------------
 
 ----Player TP!----
