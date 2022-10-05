@@ -1151,24 +1151,23 @@ end)
 
 ----AFKSpacebar----
 
-_G.AFK = true
-    MOD:Toggle("AFK",true, function(bool)
+_G.AFK = false
+    MOD:Toggle("AFKSpacebar",false, function(bool)
         _G.AKF = bool
     end)
 
 
           spawn(function()
             while wait() do
+            if _G.AKF then    
                 pcall(function() 
                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,5.3,0)
                   wait(300)
                 end)
             end
+        end
         end)
-        end)
-    end
-end
-end)
+
 
 
 -----MOD-----
