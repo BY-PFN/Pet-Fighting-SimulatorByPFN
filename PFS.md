@@ -944,6 +944,32 @@ tgls:Button("TP word10 ", function()
 
 end)
 
+-------------------------------------------------------------------------------------------------------------------
+_G.word10Spray = false
+tgls:Toggle("BossGo Jitsu",false, function(bool)
+  _G.word10Spray = bool
+end)
+spawn(function()
+  while wait(10) do
+    if _G.word10Spray then
+      pcall(function() 
+          
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3268.384521484375, 7.90869665145874, 13688.25390625)
+if (CFrame.new(-3268.384521484375, 7.90869665145874, 13688.25390625).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3268.384521484375, 7.90869665145874, 13688.25390625)
+end
+
+
+          wait(10)
+          
+          
+      end)
+    end
+  end
+end)
+-------------------------------------------------------------------------------------------------------------------
+
 _G.word10C82 = false
 tgls:Toggle("Auto Wichhy C82",false, function(bool)
     _G.word10C82 = bool
@@ -1113,11 +1139,32 @@ spawn(function()
         pcall(function() 
             local VirtualUser = game:GetService("VirtualUser")
             VirtualUser:CaptureController()
-            VirtualUser:SetKeyDown("w",key)
+            VirtualUser:SetKeyDown("W",key)
             wait()
             VirtualUser:CaptureController()
-            VirtualUser:SetKeyUp("w",key)
+            VirtualUser:SetKeyUp("W",key)
             wait(1900)
+        end)
+    end
+end
+end)
+
+----AFKSpacebar----
+
+_G.AFK = true
+    MOD:Toggle("AFK",true, function(bool)
+        _G.AKF = bool
+    end)
+
+
+          spawn(function()
+            while wait() do
+                pcall(function() 
+                  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,5.3,0)
+                  wait(300)
+                end)
+            end
+        end)
         end)
     end
 end
