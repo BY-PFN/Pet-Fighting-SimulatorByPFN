@@ -871,7 +871,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -896,7 +896,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -921,7 +921,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -946,7 +946,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -971,7 +971,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1002,7 +1002,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1027,7 +1027,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1052,7 +1052,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1077,7 +1077,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1102,7 +1102,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1132,7 +1132,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1157,7 +1157,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1182,7 +1182,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1207,7 +1207,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1265,7 +1265,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1289,7 +1289,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1315,7 +1315,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1340,7 +1340,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1365,7 +1365,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.BattleClickEvent:FireServer(unpack(args))
 
 
-            wait(2)
+            wait(1)
         end)
       end
     end
@@ -1441,7 +1441,7 @@ _G.AFKSpacebar = false
             if _G.AFKSpacebar then    
                 pcall(function() 
                   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,5.3,0)
-                  wait(300)
+                  wait(100)
                 end)
             end
         end
